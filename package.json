@@ -1,0 +1,22 @@
+{
+  "name": "clickhouse-cluster-up",
+  "version": "1.0.0",
+  "description": "Clickhouse Cluster management command line tool for development",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "clickhouse-cluster-up": "./bin/index.js"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.1",
+    "child_process": "^1.0.2",
+    "figlet": "^1.5.2",
+    "replace": "^1.2.2",
+    "yargs": "^16.1.1"
+  },
+  "author": "Mayank Sharma",
+  "license": "MIT"
+}
