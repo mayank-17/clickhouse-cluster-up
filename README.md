@@ -16,6 +16,13 @@
 </p>
 <br>
 
+## Requirements
+
+1. Node.js
+2. Docker
+
+<br>
+
 ## Installation
 
 1. Clone the repository and then navigate to it.
