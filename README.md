@@ -38,4 +38,4 @@ Type ```clickhouse-cluster-up``` or ```clickhouse-cluster-up --help``` to get st
 
 ## License
 
-MIT © ***MyCLI***
+MIT © ***clickhouse-cluster-up***
