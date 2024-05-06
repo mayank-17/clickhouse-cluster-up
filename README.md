@@ -1,6 +1,6 @@
 # clickhouse-cluster-up
 <p align="center">
-  <img src="images/cliHelp.png" height="220" width"700">
+  <img src="images/cliHelp.png" height="500" width"1000">
 </p>
 
 <p align="center">
