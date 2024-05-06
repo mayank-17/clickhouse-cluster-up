@@ -5,6 +5,7 @@
     <profiles>
         <!-- Default settings. -->
         <default>
+            <connect_timeout_with_failover_ms>1000</connect_timeout_with_failover_ms>
         </default>
 
         <!-- Profile that allows only read queries. -->

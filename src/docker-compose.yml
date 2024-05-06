@@ -12,7 +12,7 @@ services:
     networks:
       ckh-network:
         ipv4_address: 172.16.238.2
-  clickhouse-0-0-0:
+  clickhouse-0-0:
     hostname: clickhouse-0-0
     container_name: clickhouse-0-0
     image: clickhouse/clickhouse-server:23.4.2
@@ -24,16 +24,5 @@ services:
         ipv4_address: 172.16.238.3
     volumes:
       - ${PWD}/volume/clickhouse-0-0:/etc/clickhouse-server
-    depends_on:
-      - zookeeper-0
-  clickhouse-0-1-0:
-    hostname: clickhouse-0-1
-    container_name: clickhouse-0-1
-    image: clickhouse/clickhouse-server:23.4.2
-    networks:
-      ckh-network:
-        ipv4_address: 172.16.238.4
-    volumes:
-      - ${PWD}/volume/clickhouse-0-1:/etc/clickhouse-server
     depends_on:
       - zookeeper-0
